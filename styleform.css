@@ -1,0 +1,174 @@
+#form{
+    width: 50%;
+    margin: 0 auto;
+    /* padding: 24px; */
+    background-color: blanchedalmond;
+    border-radius: 8%;
+    /* margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%; */
+    margin:auto 100px auto;
+    
+
+}
+.details{
+    margin-left: 25%;
+
+    
+}
+.input{
+    padding: 12px 120px;
+    border-radius: 5px;
+    border: solid 1px;
+
+
+    
+
+}
+label{
+    display: grid;
+    margin-top: 7%;
+    
+}
+
+.background{
+    background-color: purple;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    margin-left: 13%;
+}
+button{
+    padding: 18px 16px;
+    border: none;
+    background-color:white;
+    color: white;
+    
+}
+.todobutton{
+  margin-top: 5%;
+  margin-left: 30%;
+  text-decoration: none;
+  color: white;
+}
+.heading1{
+    color: purple;
+    text-align: center;
+    margin-top: 8%;
+}
+body{
+    background-color: purple;
+ }
+ .landingPageText{
+    margin-top: 5%;
+    margin-left: 10%;
+    color: white;
+    margin-left: 10%;
+    font-size: larger;
+}
+.land{
+  display: flex;
+  
+    
+}
+.image{
+    width: 400px;
+    height: 300px;
+}
+
+
+ @media screen and (max-width:768px) {
+    .input{
+        padding: 4px 6px;
+        border-radius: 5px;
+        border: solid 1px;
+    
+    } 
+ 
+    #form{
+        width: 73%;
+        /* margin: 0 auto; */
+        background-color: blanchedalmond;
+        border-radius: 8%;
+        /* margin:auto 100px auto; */
+        margin-left: 2%;
+        
+    
+    }
+    .details{
+        width: 20%;
+        
+        
+    }
+    .land{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: xx-small;
+
+        
+          
+      }
+      .image{
+        width: 200px;
+        height: 150px;
+    }
+    .landingPageText{
+        margin-top: 5%;
+        margin-left: 10%;
+        color: white;
+        margin-left: 10%;
+        font-size: larger;
+        font-size: xx-small;
+    }
+    
+
+ }
+ @media screen and (max-width:900px) and (max-width:1025) {
+    .input{
+        padding: 4px 6px;
+        border-radius: 5px;
+        border: solid 1px;
+    
+    } 
+ 
+    #form{
+        width: 73%;
+        /* margin: 0 auto; */
+        background-color: blanchedalmond;
+        border-radius: 8%;
+        /* margin:auto 100px auto; */
+        margin-left: 0%;
+        
+    
+    }
+    .details{
+        width: 20%;
+        
+        
+    }
+    .land{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: xx-small;
+
+        
+          
+      }
+      .image{
+        width: 200px;
+        height: 150px;
+    }
+ }
+
+
+
+ 
+
+
+
+
+

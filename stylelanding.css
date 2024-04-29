@@ -1,0 +1,32 @@
+#landingPage{
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+    flex-direction: row;
+ }
+ .landingPageText{
+     margin-top: 5%;
+     margin-left: 10%;
+ }
+ .landingPageImage{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: 12%;
+    margin-right: 5%;
+    object-fit: contain;
+
+ }
+ body{
+    background-color: purple;
+ }
+ .footer{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    justify-content: space-around;
+    color: white;
+    height: 100px;
+}
+
+ 
